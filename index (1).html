@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index2.css">
+    </head>
+    <body>
+        <div class="box">
+        <form id="doo">
+            <label for="name">NAME<span >*</span></label>
+            	<input required type="text" id="name" name="name"  >
+            <br>
+            	<label for="email">EMAIL<span >*</span></label>
+            <input required type="email" id="email" name="email" >
+            <br><br>
+            	<label for="password">PASSWORD<span >*</span></label>
+            <input  type="password" id="password" name="password" required>
+            <br>
+            	<label for="dob">DOB<span >*</span></label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            <input type="checkbox" id="acceptTerms" name="acceptTerms">
+            	<label for="acceptTerms">Accept T&C</label>
+            <br>
+            <button class="button"  type="submit" ><h4>SUBMIT</h4></button>
+            <br>
+           <div>
+            <h2>Entries</h2>
+            <div id="entries"></div>
+           </div>
+        </form>
+        </div>
+    </body>
+    <script src="index1.js"></script>
+</html>

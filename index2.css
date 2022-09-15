@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color:blueviolet;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    box-shadow: 3px 5px 11px yellow;
+    border: 1px solid brown;
+    border-radius: 16px;
+    padding: 23px;
+  }
